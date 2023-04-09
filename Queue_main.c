@@ -80,7 +80,6 @@ void display()
 	int i;
 	for(i=rear;i>=front;i--)
 	{
-		printf("\n%d\n",queue[i]);
+		printf("\n %d",queue[i]);
 	}
 }
-
